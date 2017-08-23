@@ -18,7 +18,7 @@ JNLM works on Python2.7 and requires MeCab, romkan, numpy and Tensorflow serving
 
 
 1. Git clone
-```sh
+  ```sh
 $ git clone https://192.168.122.28:8568/bigdata/NLM_ja_jp.git
 $ cd NLM_ja_jp
 $ pip install -r requirement.txt  # requirements install.
@@ -63,7 +63,7 @@ $ ./run_test.sh
 ```sh
 $ vi run_train.sh
 optional arguments:
-  --gpuid				GPU ID (null value indicates CPU)
+  --gpuid			GPU ID (null value indicates CPU)
   --forget_bias			LSTM hyper parameter forget bias
   --keep_prob			LSTM hyper parameter keep prob
   --max_max_epoch		LSTM epoch
