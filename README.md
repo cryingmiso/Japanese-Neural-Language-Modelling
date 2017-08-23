@@ -19,7 +19,7 @@ JNLM works on Python2.7 and requires MeCab, romkan, numpy and Tensorflow serving
 
 1. Git clone
   ```sh
-$ git clone https://192.168.122.28:8568/bigdata/NLM_ja_jp.git
+$ git clone https://000.000.000.0/bigdata/NLM_ja_jp.git
 $ cd NLM_ja_jp
 $ pip install -r requirement.txt  # requirements install.
 ```
